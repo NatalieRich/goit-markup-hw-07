@@ -1,0 +1,60 @@
+.photo {
+  display: block;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.position {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.list-team {
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px;
+
+  background-color: $white-text;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.list-team:last-child {
+  margin-right: 0;
+}
+
+.actions-social {
+  padding-bottom: 36px;
+}
+
+.list .team-social {
+  width: calc((100% - 88px) / 4);
+}
+
+.team-social:first-child {
+  margin-left: 44px;
+}
+
+.selection {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  fill: $gray-text;
+}
+
+.selection:hover,
+.selection:focus {
+  background-color: $active-blue;
+  fill: $white-text;
+}
